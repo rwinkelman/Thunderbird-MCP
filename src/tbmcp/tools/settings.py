@@ -20,6 +20,7 @@ from typing import Any, Literal
 from ..errors import BlockedError, UsageError
 from ..safety import (
     IDEMPOTENT_WRITE,
+    MUTATING,
     Gate,
     current_settings,
     guard_write,
